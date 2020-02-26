@@ -2,12 +2,12 @@ package com.exposurenew.app.newexposure;
 
 import javax.annotation.PostConstruct;
 
-//import org.springframework.context.annotation.Bean;
-//import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 //import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-@Component
+@Configuration
 public class BeanClass {
 	BeanClass()
 	{
@@ -26,11 +26,11 @@ void printn()
 	  System.out.println("Bean Method");
 }
 	
-
-   /*void print()
+@Bean
+void print()
   {
 	  System.out.println("Method but not a bean");
-  }*/
+  }
 	
 
 }
