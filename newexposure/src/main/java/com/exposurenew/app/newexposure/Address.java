@@ -3,7 +3,7 @@ package com.exposurenew.app.newexposure;
 public class Address {
 	private int hno;
 	private String sname;
-	
+	private string nt;
 	
 	public int getHno() {
 		return hno;
@@ -17,5 +17,6 @@ public class Address {
 	public void setSname(String sname) {
 		this.sname = sname;
 	}
+       
 
 }
